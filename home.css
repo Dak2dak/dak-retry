@@ -23,7 +23,7 @@ html {
     }
 
     .blob_box .home_blob {
-        width: 80%;
+        width: 250px;
         border: solid;
     }
 
@@ -34,6 +34,7 @@ html {
     .description {
         grid-column-start: 2;
         grid-row-start: 1;
+        border: solid;
     }
 
 
