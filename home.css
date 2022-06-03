@@ -64,8 +64,8 @@ html {
 }
 
 .description {
-    width: 100%;
-    border: solid;
+    /* width: 100%;
+    border: solid; */
 }
 
 .description .home_headings {
