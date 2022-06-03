@@ -1,0 +1,114 @@
+
+@media screen and (min-width: 560px) {
+    
+
+
+    .about_down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+
+    .about_text {
+        width: 18%;
+    }
+    
+    .about_description {
+        margin-top: 0;
+        font-size: 1.2rem;
+    }
+
+
+
+}
+
+
+
+.about_container {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-rows: 300px 300px;
+}
+
+.about_up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_headings {
+    line-height: 2px;
+    margin-bottom: 2.5rem;
+}
+
+.about_container .img_box img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.img_box {
+    text-align: center;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about_description {
+    text-align: center;
+    margin-top: 2rem;
+    width: 82%;
+}
+
+.about_down .experience {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+
+.work_details {
+    text-align: center;
+}
+
+.work_details .time {
+    font-weight: 600;
+}
+
+.about_btn a svg {
+    width: 25px;
+    fill: #fff;
+}
+
+.about_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.about_btn a {
+    text-decoration: none;
+    width: 130px;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #6e57e0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+
+
