@@ -19,6 +19,7 @@
     .about_description {
         margin-top: 0;
         font-size: 1.2rem;
+        width: 80%;
         border: 2px solid blue;
     }
 
