@@ -24,7 +24,7 @@
 .home_container {
     display: grid;
     grid-template-columns: 50px 300px;
-    padding: 3rem 1.5rem;
+    padding: 3rem 1.2rem;
 }
 
 .social_media {
@@ -80,7 +80,7 @@
 
 .description a {
     text-decoration: none;
-    width: 120px;
+    width: 180px;
     padding: 1rem 1.2rem;
     border-radius: 10px;
     border: none;
