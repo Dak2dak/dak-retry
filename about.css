@@ -12,11 +12,7 @@
 
 
     .about_text {
-        /* width: 45%; */
-    }
-
-    .about_container .img_box img {
-        /* width: 300px; */
+        width: 45%;
     }
     
     .about_description {
