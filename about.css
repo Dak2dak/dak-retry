@@ -12,8 +12,12 @@
 
 
     .about_text {
-        width: 50%;
+        width: 45%;
         border: 2px solid red;
+    }
+
+    .about_container .img_box img {
+        width: 40%;
     }
     
     .about_description {
