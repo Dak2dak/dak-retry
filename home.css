@@ -65,6 +65,7 @@ html {
 
 .description {
     width: 370px;
+    margin-top: 1.5rem;
 }
 
 .description .home_headings {
@@ -91,7 +92,7 @@ html {
 .description a {
     text-decoration: none;
     width: 175px;
-    padding: .5rem;
+    padding: 1rem .5rem;
     border-radius: 10px;
     border: none;
     outline: none;
