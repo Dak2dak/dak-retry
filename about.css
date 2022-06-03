@@ -30,8 +30,8 @@
 
 .about_container {
     padding: 3rem 1.2rem;
-    display: grid;
-    grid-template-rows: 100px 300px;
+    /* display: grid;
+    grid-template-rows: 100px 300px; */
 }
 
 .about_up {
