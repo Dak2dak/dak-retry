@@ -13,7 +13,10 @@ html {
 @media screen and (min-width: 560px) {
     
 
-
+    .home_container {
+        display: grid;
+        grid-template-columns: 50px 250px;
+    }
 
     .blob_box {
         grid-column-start: 3;
