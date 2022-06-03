@@ -42,7 +42,7 @@
 }
 
 .about_headings {
-    line-height: 2px;
+    line-height: 5px;
     margin-bottom: 2.5rem;
 }
 
@@ -96,7 +96,7 @@
 
 .about_btn a {
     text-decoration: none;
-    width: 180px;
+    width: 170px;
     padding: 1rem;
     border-radius: 10px;
     border: none;

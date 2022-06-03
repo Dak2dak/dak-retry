@@ -50,7 +50,7 @@
 }
 
 .blob_box .home_blob image {
-    width: 190px;
+    width: 170px;
 }
 
 .description {
@@ -80,7 +80,7 @@
 
 .description a {
     text-decoration: none;
-    width: 180px;
+    width: 170px;
     padding: 1rem 1.2rem;
     border-radius: 10px;
     border: none;
