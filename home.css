@@ -62,16 +62,16 @@
 }
 
 .description .home_title {
-    font-size: 3rem;
-}
-
-.description .home_subtitle {
     font-size: 1.5rem;
 }
 
-.description .text {
+.description .home_subtitle {
     font-size: 1.2rem;
 }
+
+/* .description .text {
+    font-size: 1.rem;
+} */
 
 .description svg {
     width: 25px;
@@ -80,7 +80,7 @@
 
 .description a {
     text-decoration: none;
-    width: 170px;
+    width: 160px;
     padding: 1rem 1.2rem;
     border-radius: 10px;
     border: none;
