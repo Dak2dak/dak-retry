@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
 
 @media screen and (min-width: 560px) {
     
@@ -62,7 +72,7 @@
 }
 
 .description .home_title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .description .home_subtitle {
