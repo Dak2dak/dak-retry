@@ -13,11 +13,13 @@
 
     .about_text {
         width: 18%;
+        border: 2px solid red;
     }
     
     .about_description {
         margin-top: 0;
         font-size: 1.2rem;
+        border: 2px solid blue;
     }
 
 
@@ -30,8 +32,6 @@
 
 .about_container {
     padding: 3rem 1.2rem;
-    /* display: grid;
-    grid-template-rows: 100px 300px; */
 }
 
 .about_up {
