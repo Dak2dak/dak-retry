@@ -66,8 +66,7 @@
 .about_description {
     text-align: center;
     margin-top: 2rem;
-    width: 82%;
-    border: solid;
+    width: 100%;
 }
 
 .about_down .experience {
@@ -97,7 +96,7 @@
 
 .about_btn a {
     text-decoration: none;
-    width: 130px;
+    width: 180px;
     padding: 1rem;
     border-radius: 10px;
     border: none;
