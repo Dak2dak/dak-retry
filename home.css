@@ -65,6 +65,7 @@ html {
 
 .description {
     width: 390px;
+    border: solid;
 }
 
 .description .home_headings {
