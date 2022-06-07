@@ -15,7 +15,8 @@ html {
 
     .home_container {
         display: grid;
-        grid-template-columns: 50px 200px;
+        grid-template-columns: 1fr;
+        border: solid;
     }
 
     .blob_box {
@@ -33,8 +34,6 @@ html {
     .description {
         grid-column-start: 2;
         grid-row-start: 1;
-        border: solid;
-        width: 270px;
     }
 
 

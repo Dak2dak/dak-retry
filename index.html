@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sections</title>
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="qualification.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Sections</title>
 </head>
 
 <body>
@@ -178,8 +182,99 @@
         </div>
     </section>
 
+    <section>
+        <div class="qualification_container timeline">
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date-right"> August 20, 2022 
+                    <h1>Computer <br> Engineer</h1>
+                    <span>Peru - University</span>
+                    <div class="time_box">
+                        <span class="material-symbols-outlined">
+                            calendar_month
+                        </span>
+                        <span>2009 - 2014</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline_bar">
+                <div class="timeline_round"></div>
+            </div>
+            <div class="timeline_component timeline_bg">
+                <div class="timeline_date timeline_date-left"></div>
+            </div>
+
+            <div class="timeline_component timeline_bg">
+                <div class="timeline_date timeline_date-left"></div>
+            </div>
+            <div class="timeline_bar">
+                <div class="timeline_round"></div>
+            </div>
+            <div class="timeline_bar">
+                <h1>Web Design</h1>
+                <span>Spain - Institute</span>
+                <div class="time_box">
+                    <span class="material-symbols-outlined">calendar_month</span>
+                    <span>2014 - 2017</span>
+                </div>
+            </div>
+
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date-right date_closer">
+                    <h1>Web <br> Development</h1>
+                    <span>Peru - Institute</span>
+                    <div class="time_box">
+                        <span class="material-symbols-outlined"> calendar_month </span>
+                        <span>2017 - 2019</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline_bar">
+                <div class="timeline_round"></div>
+                <div class="timeline_round last_bar"></div>
+            </div>
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date-right"> August Junuary, 2023 </div>
+            </div>
+            <div class="timeline_component timeline_bg">
+                <div class="timeline_date timeline_date-left">
+                    <h1>Master in Ui/Ux</h1>
+                    <span>Spain - Institute</span>
+                    <div class="time_box">
+                        <span class="material-symbols-outlined">
+                            calendar_month
+                        </span>
+                        <span>2014 - 2017</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+
+
+
+        <button id="scrollUpBtn">
+            <span class="material-symbols-outlined">arrow_upward</span>
+        </button>
+
+
+
+
+
+
+    <script>
+        const scrollToTopBtn = document.getElementById("scrollUpBtn");
+        scrollToTopBtn.addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
+            
+        });
+    </script>
     <!-- <script src="about.js"></script> -->
 </body>
 
