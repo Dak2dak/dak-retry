@@ -15,6 +15,24 @@
     margin-bottom: 3rem;
 }
 
+.qualification_types {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .timeline {
     display: grid;
     max-width: 750px;
