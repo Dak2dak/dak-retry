@@ -20,7 +20,7 @@
     display: grid;
     max-width: 750px;
     margin-bottom: 3.5rem;
-    grid-template-columns: 180px 2px 180px;
+    grid-template-columns: 185px 2px 185px;
 }
 
 .timeline_component {
