@@ -6,37 +6,36 @@
     box-sizing: border-box;
 }
 
+.qualification {
+    padding: 0 1.5rem;
+}
+
 .qualification_headings {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 
 .timeline {
     display: grid;
-    padding: 25px;
     max-width: 750px;
     margin-bottom: 3.5rem;
     grid-template-columns: 1fr 3px 1fr;
 }
 
 .timeline_component {
-    margin: 0 20px 20px 20px;
+    
     border-radius: 10px;
-}
-
-.left_box {
-    display: flex;
-    /* justify-content: flex-start; */
-    align-items: flex-start;
 }
 
 .timeline_date-right {
     text-align: right;
+    /* margin: 0 20px 20px 20px; */
 }
 
 .timeline_bar {
     position: relative;
-    background: #fff;
+    background: #000;
 }
 
 .timeline_round {
@@ -60,13 +59,15 @@
     background: rgb(255, 255, 255, 0.2);
     box-shadow: 0 0 0 rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    border: 1px red solid;
 }
 
-/* .date_closer {
+.date_closer {
     text-align: left;
-} */
+}
 
+.timeline h1 {
+    font-size: 1.2rem;
+}
 
 .material-symbols-outlined {
     font-size: 16px;
