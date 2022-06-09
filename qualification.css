@@ -29,8 +29,6 @@
 .timeline_info-right {
     text-align: left;
     padding-left: 20px;
-    border: 1px red solid;
-    border-radius: 10px;
 }
 
 .timeline_bar {
@@ -58,7 +56,6 @@
     padding: 0 1.5rem;
     background: rgb(255, 255, 255, 0.2);
     box-shadow: 0 0 0 rgb(0, 0, 0, 0.2);
-    border-radius: 10px;
 }
 
 .info_closer {
