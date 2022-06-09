@@ -15,19 +15,18 @@
     margin-bottom: 3rem;
 }
 
-
 .timeline {
     display: grid;
     max-width: 750px;
     margin-bottom: 3.5rem;
-    grid-template-columns: 185px 2px 190px;
+    grid-template-columns: 180px 2px 180px;
 }
 
 .timeline_component {
     height: 120px;
 }
 
-.timeline_date-right {
+.timeline_info-right {
     text-align: left;
     padding-left: 20px;
     border: 1px red solid;
@@ -62,7 +61,7 @@
     border-radius: 10px;
 }
 
-.date_closer {
+.info_closer {
     text-align: left;
 }
 
