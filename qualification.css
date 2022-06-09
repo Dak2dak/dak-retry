@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.qualification_headings {
+    text-align: center;
+}
+
 
 .timeline {
     display: grid;
@@ -18,17 +22,12 @@
 .timeline_component {
     margin: 0 20px 20px 20px;
     border-radius: 10px;
-    border: solid;
 }
 
 .left_box {
     display: flex;
     /* justify-content: flex-start; */
     align-items: flex-start;
-}
-
-.timeline_component-bottom {
-    margin-bottom: 0;
 }
 
 .timeline_date-right {
@@ -41,14 +40,14 @@
 }
 
 .timeline_round {
-    width: 20px;
-    height: 20px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
     transform: translateX(-50%);
     position: absolute;
     top: 0;
     left: 50%;
-    background: #fff;
+    background-color: #6e57e0;
 }
 
 .last_bar {
@@ -57,7 +56,7 @@
 }
 
 .timeline_bg {
-    padding: 1.5rem;
+    padding: 0 1.5rem;
     background: rgb(255, 255, 255, 0.2);
     box-shadow: 0 0 0 rgb(0, 0, 0, 0.2);
     border-radius: 10px;
