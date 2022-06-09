@@ -6,6 +6,34 @@
     box-sizing: border-box;
 }
 
+
+
+@media screen and (min-width: 560px) {
+    
+    .qualififcation_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .qualification_types {
+        gap: 3rem;
+    }
+
+    .timeline {
+        max-width: 1000px;
+        grid-template-columns: 500px 2px 500px;
+    }
+
+    .timeline_info-right {
+        padding-left: 100px;
+        border: solid;
+    }
+
+
+}
+
 .qualification {
     padding: 0 1.5rem;
 }
