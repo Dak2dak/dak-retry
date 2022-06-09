@@ -20,7 +20,7 @@
     display: grid;
     max-width: 750px;
     margin-bottom: 3.5rem;
-    grid-template-columns: 185px 2px 185px;
+    grid-template-columns: 185px 2px 190px;
 }
 
 .timeline_component {
@@ -30,7 +30,8 @@
 .timeline_date-right {
     text-align: left;
     padding-left: 20px;
-    /* margin: 0 20px 20px 20px; */
+    border: 1px red solid;
+    border-radius: 10px;
 }
 
 .timeline_bar {
